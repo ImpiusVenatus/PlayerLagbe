@@ -1,0 +1,6 @@
+.env.local
+.env.deployment.local
+.env.test.local
+.env.production.local
+
+.npm-debug.log*
