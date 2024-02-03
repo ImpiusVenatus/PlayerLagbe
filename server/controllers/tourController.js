@@ -68,8 +68,6 @@ export const getAllTour = async(req,res)=>{
     //fot pagination
     const page = parseInt(req.query.page)
 
-    console.log(page);
-
     try {
         const tours = await Tour.find({})
             .populate('reviews')

@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://player-lagbe.vercel.app'
+export const BASE_URL = 'http://localhost:4000/api/v1'
